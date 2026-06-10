@@ -13,4 +13,16 @@ public class CreateReviewDto {
 
     private Long bookingId;
 
+
+
+
+    @Override
+    public String toString() {
+        return "CreateReviewDto{" +
+                "content=" + content +
+                ", rating=" + rating +
+                ", bookingId=" + bookingId +
+                "}";
+    }
+
 }
